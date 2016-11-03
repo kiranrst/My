@@ -9,9 +9,9 @@
       <property name="javax.persistence.jdbc.url"    value="jdbc:h2:~/test" />
       <property name="javax.persistence.jdbc.user" value="sa" />
       <property name="javax.persistence.jdbc.password" value="" />
-      <property name="hibernate.dialect" value="org.hibernate.dialect.H2Dialect"/>
+      <property name="hibernate.dialect" value="org.hibernate.dialect.H2Dialect"/>  <!-- Database specific property to use for generating sql specific queries -->
       <property name="hibernate.hbm2ddl.auto" value="create-drop" />
-      <property name="show_sql" value="true"/>
+      <property name="hibernate.show_sql" value="true"/>
       <property name="hibernate.temp.use_jdbc_metadata_defaults" value="false"/>
     </properties>
     <!-- Using hibernate framework to connect the h2 database -->
